@@ -31,7 +31,7 @@ export default function Filters({ onFilterByRegion }) {
   };
 
   return (
-    <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between ">
+    <div className="flex flex-row-reverse gap-4 md:flex-end md:items-center md:content-end md:justify-between md:absolute right-11 top-20 ">
       <form className="md:flex-2">
         <select
           name="filter-by-region"

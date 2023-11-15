@@ -10,7 +10,7 @@ function App() {
   const { darkMode } = useContext(ThemeContext);
   return (
     <BrowserRouter>
-      <main className={darkMode ? "dark-Mode h-full" : "h-full bg-gray-200"}>
+      <main className={darkMode ? "dark-Mode h-full" : "h-full bg-gray-000"}>
         <div>
           <NavBar />
         </div>
